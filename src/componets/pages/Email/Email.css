@@ -8,17 +8,22 @@
   padding: 16px;
   width: 450px;
   margin: 0 auto;
+  border: solid 1px;
+  padding-bottom: 23px;
 }
 
 .form {
   padding: 16px;
   width: 450px;
   margin: 0 auto;
+  border: solid 1px;
+  padding-bottom: 10px;
 }
 
 .segment {
-  padding: 16px * 2 0;
+  text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 .unit {
   border-radius: 16px/2;

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "../../Button";
 import { Link } from "react-router-dom";
 
 import {
@@ -23,11 +22,14 @@ function Footer() {
           Email us: moosa@lasharigroup.com
         </p>
       </div>
+      <div className="TimeTable">
+        Sat - Thur: 8.00 - 18.00 | Friday: Closed | Emergency: 24hr 7days
+      </div>
       <div className="containerI">
         <p>
-          <iframe
+          <iframe name="Map"
             className="responsive-iframe"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507864!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sPT%20Kulkul%20Teknologi%20Internasional!5e0!3m2!1sen!2sid!4v1601138221085!5m2!1sen!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7163.279783419913!2d50.577824!3d26.143282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49ac165b86562b%3A0x9f5b8e897a9846ea!2s1440%20Rd%20No%204130%2C%20Riffa!5e0!3m2!1sen!2sbh!4v1603255802008!5m2!1sen!2sbh"
             width="400"
             height="100"
             frameBorder="0"
@@ -42,9 +44,9 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/" className="social-logo">
+            <Link to="/" className="social-logo" style={{ color: '#FFF',textDecorationLine:"none"}}>
               <IoIosConstruct className="navbar-icon" />
-              LASHARI
+              LASHARI CC
             </Link>
           </div>
 

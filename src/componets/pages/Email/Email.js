@@ -31,8 +31,8 @@ export default function ContactUs() {
   }
   return (
     <>
-      <div class="segment">
-        <h1>Contact Us</h1>
+      <div>
+        <h1 class="segment">Contact Us</h1>
       </div>
       <Container fluid>
         <Row>
@@ -51,9 +51,8 @@ export default function ContactUs() {
               <p className="txt2">+973-17771402</p>
               <br />
               <HiOutlineMail />
-              <b>Email :</b> <br />{" "}
+              <b>Email :</b> <br />
               <p className="txt2">moosa@lasharigroup.com</p>
-              <br />{" "}
             </div>
           </Col>
           <Col>

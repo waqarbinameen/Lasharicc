@@ -13,7 +13,7 @@ function Home() {
       <div id="services">
         <HeroSection {...homeObjThree} />
       </div>
-      <div id="gallary">
+      <div id="gallery">
         <HeroSection {...homeObjTwo} />
       </div>
       <div id="aboutus">

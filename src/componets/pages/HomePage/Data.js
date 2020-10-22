@@ -22,7 +22,7 @@ export const homeObjTwo = {
   headline: "Stay protected 24/7 anywhere anytime",
   description:
     "That are in compliant with the client requirement. We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
-  linkTo: "/Gallary",
+  linkTo: "/Gallery",
   buttonLabel: "Learn More",
   imgStart: "",
   img: "images/G1.svg",
@@ -52,7 +52,7 @@ export const homeObjFour = {
   headline: "We provide a wide variety of construction and associated services",
   description:
     "That are in compliant with the client requirement. We always strive to reinvent ourselves with each project we undertake, and are among the first to adapt to new construction methods and technologies in the market. We strictly adhere to our core values and ethics in order to provide uncompromising construction solutions.",
-  linkTo: "/AboutUs",
+  linkTo: "/About",
   buttonLabel: "Learn More",
   imgStart: "start",
   img: "images/G2.svg",

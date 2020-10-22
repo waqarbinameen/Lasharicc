@@ -1,3 +1,11 @@
-a {
-  color: aqua;
+.pgs {
+  padding-left: 2%;
+  text-align: justify;
+  padding-right: 2%;
+}
+.hs {
+  text-transform: uppercase;
+  font-weight: bold;
+
+  text-align: center;
 }
