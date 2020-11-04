@@ -6,7 +6,7 @@ import { IoIosConstruct } from "react-icons/io";
 import { Button } from "./Button";
 import { IconContext } from "react-icons/lib";
 import "./Navbar.css";
-  
+
 
 function Navbar() {
   window.onload = function () {
@@ -124,11 +124,16 @@ function Navbar() {
                   </Link>
                 )}
               </li>
+              
             </ul>
+           
           </div>
-         
-        </div>
+     
+    
+    </div>
+       
       </IconContext.Provider>
+     
     </>
   );
 }

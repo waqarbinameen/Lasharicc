@@ -16,11 +16,19 @@ import ScrollBackToTop from "./componets/ScrollBackToTop";
 import PageNotFound from "./componets/pages/PageNotFound/PageNotFound";
 import About from "./componets/pages/About/About";
 import GalleryPortal from "./componets/pages/GalleryPortal/GalleryPortal";
+import ProgressBar from 'react-progressbar-on-scroll'
+
 
 function App() {
   return (
+  
     <Router>
+      
       <Navbar />
+      < ProgressBar   color="#04d9ff"
+    height={6} position="top"/>
+     
+      
       <ScrollBackToTop />
       <Switch>
         <Route exact path="/" component={Home} />
